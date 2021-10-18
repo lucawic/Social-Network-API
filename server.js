@@ -3,7 +3,7 @@ const db = require ('./config/connection');
 const routes = require('./routes');
 
 const app = express();
-const PORT = process.env.PORT || 3009;
+const PORT = process.env.PORT || 3008;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
