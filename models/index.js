@@ -1,7 +1,6 @@
 //require user and thoughts models for connections
 
-const Thoughts = require('./Thoughts');
-const Users = require('./Users');
-
+const Thought = require('./Thought');
+const User = require('./User');
 //export
-module.exports = { Users, Thoughts };
+module.exports = { User, Thought };
